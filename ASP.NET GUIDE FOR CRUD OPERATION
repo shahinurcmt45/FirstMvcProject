@@ -5,3 +5,7 @@ IIS WEB PUBLISH FOR LOCALHOST SERVER
 https://www.youtube.com/watch?v=vM5VlBFfNNc&t=494s
 How to publish ASP.Net MVC 5 with SQL database to IIS
 XD Developers
+
+
+CHECK CONNECTION SQL SERVER
+SqlConnection con = new SqlConnection(@"Data Source=SHAHINUR\SQLEXPRESS;Initial Catalog=StudentDb;Integrated Security=True;Multiple Active Result Sets=True;Trust Server Certificate=True;Application Name=EntityFramework")
